@@ -16,7 +16,7 @@ from    python:2.7-alpine
 RUN apk add --no-cache git build-base python-dev py-pip jpeg-dev zlib-dev mariadb-dev py-setuptools gcc py-virtualenv mysql-client
 ENV LIBRARY_PATH=/lib:/usr/lib
 
-RUN git clone https://github.com/mediadrop/mediadrop
+RUN git clone https://github.com/skaro13/mediadrop
 
 WORKDIR /mediadrop
 
