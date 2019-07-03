@@ -6,7 +6,7 @@
 # TO_RUN:         docker run -p 8080:8080 mediadrop
 
 # Latest Ubuntu LTS
-from    python:2.7-alpine
+FROM    python:2.7-alpine
 
 # Update
 #RUN apt-get update && apt-get -y upgrade && apt-get update -y
@@ -16,7 +16,7 @@ from    python:2.7-alpine
 RUN apk add --no-cache git build-base python-dev py-pip jpeg-dev zlib-dev mariadb-dev py-setuptools gcc py-virtualenv mysql-client
 ENV LIBRARY_PATH=/lib:/usr/lib
 
-RUN git clone https://github.com/skaro13/mediadrop
+RUN git clone https://github.com/mediadrop/mediadrop
 
 WORKDIR /mediadrop
 
