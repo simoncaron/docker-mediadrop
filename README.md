@@ -2,7 +2,7 @@
 
 MediaDrop is a open source online video platform for managing and delivering video, audio and podcasts.
 
-<div style="text-align:center">!<img src="https://mediadrop.video/images/layout/logo.jpg"/></div>
+<div style="text-align:center"><img src="https://mediadrop.video/images/layout/logo.jpg"/></div>
 
 ## Usage
 Here are some example snippets to help you get started creating a container.
